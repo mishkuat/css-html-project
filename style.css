@@ -16,7 +16,7 @@ h1 {
   text-align: center;
 }
 .tile-image {
-  height: 400px;
+  height: 300px;
   width: 300px;
   border-radius: 50%;
   float: left;
@@ -25,24 +25,13 @@ h1 {
 
 .left {
   float: left;
-
-  height: 300px;
-  display: inline;
+}
+.card {
+  width: 45%;
 }
 
 .right {
   float: right;
-  height: 300px;
-
-  border: 150px;
-  display: inline;
-}
-
-.card img {
-  margin-bottom: 10px;
-  width: 50%;
-  display: inline;
-  object-fit: cover;
 }
 
 footer {
